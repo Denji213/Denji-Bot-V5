@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "╭──────•◈•──────╮\n   ✰ლ𝐍𝐀𝐑𝐔𝐓𝐎ლ✰\n╰──────•◈•──────╯";
+const doNotDelete = "╭──────•❤️•──────╮\n   ✰✰𝗟𝘂𝘅 𝗧𝘆𝗹𝗲𝘅\n╰──────•❤️•──────╯";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -14,7 +14,7 @@ module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "Aesther",
+    author: "𝗥𝗲𝗻𝗷𝗶 𝗦𝘁𝗮𝗿𝗳𝗮𝗹𝗹",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -43,7 +43,7 @@ module.exports = {
 
   langs: {
     vi: {
-      help: "╭─────────────✿\n🍀 ʬɸʬ Shïsûį CMD ʬɸʬ\n├─────⭔\n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n├────────❀\n│ %6\n╰─────────────✿",
+      help: "╭─────────────✿\n❤️ ʬɸʬ Renji Strarfall CMD ʬɸʬ\n├─────⭔\n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n├────────❀\n│ %6\n╰─────────────✿",
       attechment:fs.createReadStream("anjarara.jpg"),
       help2: "%1├───────❀\n│ » Hiện tại bot có %2 lệnh có thể sử dụng\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó\n│ %4\n╰─────────────✿",
       commandNotFound: "Lệnh \"%1\" không tồn tại",
