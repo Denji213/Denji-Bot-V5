@@ -18,7 +18,7 @@
   ]
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: "𝐂'𝐞𝐬𝐭 𝐩𝐚𝐬 𝐚𝐢 𝐜𝐫𝐞𝐭𝐢𝐧 𝐜'𝐞𝐬𝐭 𝐒𝐨𝐧𝐢𝐜🙍",attachment: await global.utils.getStreamFromURL(img)
+  body: "𝑺𝒂𝒍𝒖𝒕. 𝑴𝒐𝒊 𝒄'𝒆𝒔𝒕 𝑳𝒖𝒙 𝑻𝒚𝒍𝒆𝒙. 𝑷𝒐𝒔𝒆 𝒎𝒐𝒊 𝒕𝒂 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏",attachment: await global.utils.getStreamFromURL(img)
 })
 }
 }
