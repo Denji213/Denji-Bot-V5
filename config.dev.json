@@ -22,7 +22,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "✰D̥ͦe̥ͦn̥ͦj̥ͦi̥ͦ✰",
+  "nickNameBot": "✿ 𝗥𝗲𝗻𝗷𝗶 𝗯𝗼𝘁 ✿",
   "prefix": "~",
   "database": {
     "type": "sqlite",
