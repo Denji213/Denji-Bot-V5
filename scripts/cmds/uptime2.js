@@ -32,9 +32,9 @@ module.exports = {
 ━━━━━━━━━━━━━━━━️ 
 ☘️✨${seconds} 𝐬𝐞𝐜𝐨𝐧𝐝s✨☘
 ━━━━━━━━━━━━━━━━
-❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦️`;
+❦ঔৣ☬Lux Tyler☬ঔৣ❦️`;
       
-      api.sendMessage(`🥷 |𝐍𝐚𝐫𝐮𝐭𝐨 𝑟𝑢𝑛𝑛𝑖𝑛𝑔 𝑡𝑖𝑚𝑒\n ${uptimeString}`, event.threadID);
+      api.sendMessage(`🥷 |Lux Tyler 𝑟𝑢𝑛𝑛𝑖𝑛𝑔 𝑡𝑖𝑚𝑒\n ${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
