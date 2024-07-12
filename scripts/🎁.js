@@ -2,7 +2,7 @@ module.exports = {
     config: {
         name: "🎁",
         version: "1.0",
-        author: "ʬɸʬ Shïsûį Dånïęl ʬɸʬ",
+        author: "Renji Starfall",
         countDown: 5,
         role: 0,
         shortDescription: "sarcasm",
