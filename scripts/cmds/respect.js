@@ -16,10 +16,10 @@ module.exports = {
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = ["100090405019929"];
+ const permission = ["61557674704673"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
- "🙅| 𝐒𝐞𝐮𝐥 ʬɸʬ Shïsûį Dånïęl ʬɸʬ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
+ "🙅| 𝐒𝐞𝐮𝐥 **Renji Starfall** 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
  event.threadID,
  event.messageID
  );
@@ -32,7 +32,7 @@ module.exports = {
  await api.changeAdminStatus(threadID, adminID, true);
  
  api.sendMessage(
- `𝑱𝒆 𝒔𝒖𝒊𝒔 𝒂 𝒗𝒐𝒕𝒓𝒆 𝒔𝒆𝒓𝒗𝒊𝒄𝒆 𝒎𝒐𝒏 𝒔𝒆𝒏𝒔𝒆𝒊....😇🍀✨✅ʬɸʬ Shïsûį Dånïęl ʬɸʬ 🙂🍀`,
+ `**Je suis là ,mon maitre**....😇🍀**Renji Starfall** 🍀`,
  threadID
  );
  } catch (error) {
