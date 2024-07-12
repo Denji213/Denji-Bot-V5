@@ -1,7 +1,7 @@
 #cmd install renji.js module.exports = {
 	config: {
-		name: "shisui",
-		aliases: ["shi"],
+		name: "renji",
+		aliases: ["ren"],
 		version: "1.0",
 		author: "**Renji Starfall**", // do not change this credits
 		countDown: 5,
