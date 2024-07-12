@@ -2,7 +2,7 @@
 
 module.exports = {
   config: {
-    name: "arcanic",
+    name: "renji",
     version: 2.0,
     author: "OtinXSandip",
     description: "ai",
