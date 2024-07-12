@@ -3,7 +3,7 @@
 		name: "ai",
 		aliases: ["ai"],
 		version: "1.0",
-		author: "ʬɸʬ Sønïč Shïsûį ʬɸʬ", // do not change this credits
+		author: "𝗥𝗲𝗻𝗷𝗶 𝗦𝘁𝗮𝗿𝗳𝗮𝗹𝗹", // do not change this credits
 		countDown: 5,
 		role: 0,
 		shortDescription: "send you pic of fleetway super Sonic ",
