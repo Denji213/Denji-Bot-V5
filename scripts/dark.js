@@ -3,11 +3,11 @@ module.exports = {
     name: "dark",
     aliases: ["drk"],
     version: "1.0",
-    author: "ʬɸʬ Shïsûį Dånïęl ʬɸʬ",
+    author: "Renji Starfall",
     countDown: 10,
     role: 0,
     shortDescription: "Amuses toi bien au jeu du hasard",
-    longDescription: "Seul le hasard tu rendras riche ou pauvre...Bonne chance",
+    longDescription: "Seul le hasard te rendras riche ou pauvre...Bonne chance",
     category: "game",
     guide: "{pn} <Sonic/Shadow> <amount of money>"
   },
@@ -19,7 +19,7 @@ module.exports = {
     const userData = await usersData.get(event.senderID);
 
     if (!["sonic", "shadow"].includes(betType)) {
-      return message.reply("🎁 | 𝘾𝙝𝙤𝙞𝙨𝙞𝙨 : '𝙨𝙤𝙣𝙞𝙘' 𝙤𝙪 '𝙨𝙝𝙖𝙙𝙤𝙬'.");
+      return message.reply("🎁 | 𝘾𝙝𝙤𝙞𝙨𝙞𝙨 : 'Lux' 𝙤𝙪 'Tyler'.");
     }
 
     if (!Number.isInteger(betAmount) || betAmount < 50) {
@@ -49,7 +49,7 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌿🎀𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\  <(*✨∀✨*)ﾉ \ 🍀[ ${resultString} ]🍀\ 🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
+      return message.reply(`🌿🎀Lux Tyler🍀🏂  ───────────\  <(*✨∀✨*)ﾉ \ 🍀[ ${resultString} ]🍀\ 🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
