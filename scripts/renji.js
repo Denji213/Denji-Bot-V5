@@ -1,4 +1,4 @@
-#cmd install arcanic.js const axios = require('axios');
+#cmd install renji.js const axios = require('axios');
 
 module.exports = {
   config: {
