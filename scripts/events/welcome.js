@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "Lux Tyler 👻✨🍀\n━━━━━━━━━━━━━━━━\n𝐁𝐎𝐓 𝐏𝐑𝐄𝐅𝐈𝐗 ☘️%1☘️\nTo view the list of commands, please enter: %1help",
+			welcomeMessage: "Lux Tyler ☘️\n━━━━━━━━━━━━━━━━\n𝐁𝐎𝐓 𝐏𝐑𝐄𝐅𝐈𝐗 ☘️%1☘️\nTo view the list of commands, please enter: %1help",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `𝐒𝐚𝐥𝐮𝐭 🎶{userName}🎶.\n━━━━━━━━━━━━━━━━\n𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐮𝐞 𝐝𝐚𝐧𝐬 𝐥𝐞 𝐠𝐫𝐨𝐮𝐩𝐞: {boxName}\n━━━━━━━━━━━━━━━━`
+			defaultWelcomeMessage: `𝐒𝐚𝐥𝐮𝐭 ✔{userName}✔.\n━━━━━━━━━━━━━━━━\n𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐮𝐞 𝐝𝐚𝐧𝐬 𝐥𝐞 𝐠𝐫𝐨𝐮𝐩𝐞: {boxName}\n━━━━━━━━━━━━━━━━`
 		}
 	},
 
