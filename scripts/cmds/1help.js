@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "╭──────•❤️•──────╮\n   ✰✰𝗟𝘂𝘅 𝗧𝘆𝗹𝗲𝘅\n╰──────•❤️•──────╯";
+const doNotDelete = "╭ =========•◈•=========╮\n      ★Lux Tyler★\n╰=========•◈•=========╯";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -14,7 +14,7 @@ module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "𝗥𝗲𝗻𝗷𝗶 𝗦𝘁𝗮𝗿𝗳𝗮𝗹𝗹",
+    author: "Aesther",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -43,15 +43,15 @@ module.exports = {
 
   langs: {
     vi: {
-      help: "╭─────────────✿\n 💲 𝗥𝗲𝗻𝗷𝗶 𝗦𝘁𝗮𝗿𝗳𝗮𝗹𝗹 CMD 💲\n├─────⭔\n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n├────────❀\n│ %6\n╰─────────────✿",
+      help: "╭===========✿\n🍀LUX TYLER CMD 🍀\n├===========⭔\n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n===========❀\n│ %6\n╰===========✿",
       attechment:fs.createReadStream("anjarara.jpg"),
-      help2: "%1├───────❀\n│ » Hiện tại bot có %2 lệnh có thể sử dụng\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó\n│ %4\n╰─────────────✿",
+      help2: "%1├───────❀\n│ » Hiện tại bot có %2 lệnh có thể sử dụng\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó\n│ %4\n╰===========✿",
       commandNotFound: "Lệnh \"%1\" không tồn tại",
-      getInfoCommand: "╭── NAME ────✿\n│ %1\n├── INFO\n│ Mô tả: %2\n│ Các tên gọi khác: %3\n│ Các tên gọi khác trong nhóm bạn: %4\n│ Version: %5\n│ Role: %6\n│ Thời gian mỗi lần dùng lệnh: %7s\n│ Author: %8\n├── Usage\n│%9\n├── Notes\n│ Nội dung bên trong <XXXXX> là có thể thay đổi\n│ Nội dung bên trong [a|b|c] là a hoặc b hoặc c\n╰──────❀",
-      onlyInfo: "╭── INFO ────✿\n│ Tên lệnh: %1\n│ Mô tả: %2\n│ Các tên gọi khác: %3\n│ Các tên gọi khác trong nhóm bạn: %4\n│ Version: %5\n│ Role: %6\n│ Thời gian mỗi lần dùng lệnh: %7s\n│ Author: %8\n╰─────────────✿",
-      onlyUsage: "╭── USAGE ────✿\n│%1\n╰─────────────✿",
-      onlyAlias: "╭── ALIAS ────✿\n│ Các tên gọi khác: %1\n│ Các tên gọi khác trong nhóm bạn: %2\n╰─────────────✿",
-      onlyRole: "╭── ROLE ────✿\n│%1\n╰─────────────✿",
+      getInfoCommand: "╭── NAME ────✿\n│ %1\n├── INFO\n│ Mô tả: %2\n│ Các tên gọi khác: %3\n│ Các tên gọi khác trong nhóm bạn: %4\n│ Version: %5\n│ Role: %6\n│ Thời gian mỗi lần dùng lệnh: %7s\n│ Author: %8\n├── Usage\n│%9\n├── Notes\n│ Nội dung bên trong <XXXXX> là có thể thay đổi\n│ Nội dung bên trong [a|b|c] là a hoặc b hoặc c\n╰=======❀",
+      onlyInfo: "╭── INFO ────✿\n│ Tên lệnh: %1\n│ Mô tả: %2\n│ Các tên gọi khác: %3\n│ Các tên gọi khác trong nhóm bạn: %4\n│ Version: %5\n│ Role: %6\n│ Thời gian mỗi lần dùng lệnh: %7s\n│ Author: %8\n╰===========✿",
+      onlyUsage: "╭── USAGE ────✿\n│%1\n╰===========✿",
+      onlyAlias: "╭── ALIAS ────✿\n│ Các tên gọi khác: %1\n│ Các tên gọi khác trong nhóm bạn: %2\n╰===========✿",
+      onlyRole: "╭── ROLE ────✿\n│%1\n╰===========✿",
       doNotHave: "Không có",
       roleText0: "0 (Tất cả người dùng)",
       roleText1: "1 (Quản trị viên nhóm)",
@@ -61,8 +61,8 @@ module.exports = {
       pageNotFound: "Trang %1 không tồn tại"
     },
     en: {
-      help: "╔╦══• •✠•❀•✠ • •══╦╗\nʚ❦ɞ 𝗥𝗲𝗻𝗷𝗶🤑𝗖𝗠𝗗𝗦 ʚ❦ɞ\n╚╩══• •✠•❀•✠ • •══╩╝\n\n%1\n✶⊶⊷⊶⊷❍\n 𝗣𝗮𝗴𝗲 [ %2/%3 ]\n➤🏂 𝙸 𝚑𝚊𝚟𝚎 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢「 %4 」𝗖𝗠𝗗s \n➤🏂 𝗧𝗬𝗣𝗘: %5help <𝙿𝙰𝙶𝙴> t𝙾 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚕𝚒𝚜𝚝 𝚘𝚏 𝙲𝚖𝚍𝚜\n➤🍀 » 𝗧𝗬𝗣𝗘: %5help 𝚃𝚘 𝚝𝚑𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙲𝚘𝚖𝚖𝚊𝚖𝚍\n๑۩ ,¸¸,ø¤º°`°๑۞๑\n│ %6\n✶⊶⊷⊶⊷❍",
-      help2: "%1✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n🍀| 𝐂𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 ⌛%2⌛𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n👻| 𝐓𝐚𝐩𝐞 💧%3help💧𝐩𝐨𝐮𝐫 𝐚𝐯𝐨𝐢𝐫 𝐮𝐧𝐞 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n%4\n╔╦══• •✠•🔵•✠ • •══╦╗\n𝗥𝗲𝗻𝗷𝗶 𝗦𝘁𝗮𝗿𝗳𝗮𝗹𝗹\n╚╩══• •✠•🔵•✠ • •══╩╝",
+      help: "╔╦══• •✠•❀•✠ • •══╦╗\nʚ.ɞLUX🎗𝐂𝐌𝐃𝐒ʚ.ɞ\n╚╩══• •✠•❀•✠ • •══╩╝\n\n%1\n✶⊶⊷⊶⊷❍\n 𝗣𝗮𝗴𝗲 [ %2/%3 ]\n➤🧧 𝙸 𝚑𝚊𝚟𝚎 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢「 %4 」𝗖𝗠𝗗s \n➤🧧 𝗧𝗬𝗣𝗘: %5help <𝙿𝙰𝙶𝙴> t𝙾 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚕𝚒𝚜𝚝 𝚘𝚏 𝙲𝚖𝚍𝚜\n➤🍀 » 𝗧𝗬𝗣𝗘: %5help 𝚃𝚘 𝚝𝚑𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙲𝚘𝚖𝚖𝚊𝚖𝚍\n๑๑๑๑๑๑๑๑๑๑๑\n",
+      help2: "%1✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n🍀| 𝐂𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 🧨%2🧨𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n🧨| 𝐓𝐚𝐩𝐞 🧨%3help🧨𝐩𝐨𝐮𝐫 𝐚𝐯𝐨𝐢𝐫 𝐮𝐧𝐞 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n%4\n╔╦══• ✠🧨✠  •══╦╗\nLUX TYLER\n╚╩══• •✠🧨✠ •══╩╝",
       commandNotFound: "𝗖𝗠𝗗 \"『%1』\" 𝙳𝚘𝚎𝚜 𝙴𝚡𝚒𝚜𝚝",
       getInfoCommand: "╭── NAME ────🎀\n %1\n├── INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n├── Usage\n%9\n├── Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────🎀",
       onlyInfo: "╭── INFO ────🎀\n│ Command name: %1\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n╰─────────────🎀",
@@ -113,7 +113,7 @@ module.exports = {
           else if (value.config.shortDescription)
             shortDescription = checkLangObject(value.config.shortDescription, langCode);
           if (shortDescription)
-            describe += `:\n✏️${cropContent(shortDescription.charAt(0).toUpperCase() +  \n🛑shortDescription.slice(1))}`;
+            describe += `:\n✏${cropContent(shortDescription.charAt(0).toUpperCase() + shortDescription.slice(1))}✏`;
           arrayInfo.push({
             data: describe,
             priority: value.priority || 0
@@ -128,7 +128,7 @@ module.exports = {
 
         const returnArray = allPage[page - 1] || [];
         const startNumber = (page - 1) * numberOfOnePage + 1;
-        msg += (returnArray || []).reduce((text, item, index) => text += `🔖${index + startNumber}🔖${index + startNumber < 10 ? " " : ""}.${item.data}\n`, '').slice(0, -1);
+        msg += (returnArray || []).reduce((text, item, index) => text += `🎏${index + startNumber}`🎏${index + startNumber < 10 ? " " : ""}.🫀${item.data}\n`, '').slice(0, -1);
         await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
       }
       else if (sortHelp == "category") {
@@ -140,17 +140,17 @@ module.exports = {
     }
 
     const categoryName = value.config.category || "No Category";
-    const circularSymbol = "\n🥷🩸🦠"; // Add your desired circular symbol here
+    const circularSymbol = "\n♦♦"; // Add your desired circular symbol here
 
     if (!categoryCommands.has(categoryName)) {
       categoryCommands.set(categoryName, []);
     }
 
-    categoryCommands.get(categoryName).push(`${circularSymbol} 🦷${name}🦷`);
+    categoryCommands.get(categoryName).push(`${circularSymbol} 🎀${name}🎀`);
   }
 
   for (const [category, commands] of categoryCommands) {
-    msg += `⚔️ ✨☞${category}☜✨ ⚔️\n${commands.join(" ")}\n\n`;
+    msg += `🎀☞${category}☜🎀\n${commands.join(" ")}\n\n`;
   }
 
   message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
@@ -280,4 +280,3 @@ function cropContent(content, max) {
   }
   return content;
 }
-
